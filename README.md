@@ -9,7 +9,7 @@ creating it, cd into it.
 
 ```
  mkdir jungle 
-    cd jungle 
+ cd jungle 
     
 ```
     
@@ -41,7 +41,7 @@ django-admin startproject jungle_cicd .
 ```
        
 
-Up until this point, if you ls your directory should have the contents listed below
+Up until this point, your directory should have the contents listed below
 
 
 ```
