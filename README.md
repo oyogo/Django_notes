@@ -1,4 +1,5 @@
-![](www/infographics - CI_CD Pipeline Shiny-Server.jpg)
+![](www/shinyserver_CICD_Pipeline.jpg)           
+
 This is a workflow to update shiny dashboards running on shiny server set up.
 The workflow gets triggered by a push event to the master branch, a webhook is then sent to a Django rest API which then calls a script to git pull the latest code.  
 
