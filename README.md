@@ -277,7 +277,8 @@ curl http://127.0.0.1:8000/
 ```
 
 ### nginx  
-Its always advisable to have your server processes served through a reverse proxy (such as nginx) for security reasons. So what happens is you'll register the API in nginx and only 
-open port 80/443 of the server, with that in place any call to the API will first of all hit nginx which will reverse proxy the request to the API. 
+Its always advisable to have your server processes served through a reverse proxy (such as nginx) for security reasons. 
+A reverse proxy is basically a server which is placed in front of other servers and fowards browser requests to those servers. 
+So what happens is you'll register the API in nginx and only open port 80/443 of the server, with that in place any call to the API will first of all hit nginx which will reverse proxy the request to the API. 
 
 
