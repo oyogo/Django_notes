@@ -194,7 +194,7 @@ such, you have to create it.
     from django.conf import settings
 
     urlpatterns = [
-        path('', views.Greetings)
+        path('', views.gitpull)
 ```
     
 Register the app urls This is done on the urls.py of the project. *Note: remember to import the include* function from django.urls

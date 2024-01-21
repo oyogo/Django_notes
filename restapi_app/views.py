@@ -11,7 +11,7 @@ load_dotenv()
 
 # Create your views here.
 @api_view(['POST'])
-def Greetings(request):
+def gitpull(request):
     process = subprocess.run([os.getenv("SCRIPT_LOC")])
     if process.returncode == 0:
         print(process.returncode)
