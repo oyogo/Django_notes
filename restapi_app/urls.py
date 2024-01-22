@@ -3,6 +3,6 @@ from . import views
 from django.conf import settings
 
 urlpatterns = [
-    path('', views.Greetings)
+    path('', views.gitpull)
 ]
 
